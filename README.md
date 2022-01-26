@@ -14,4 +14,4 @@ The way the heuristic works is it goes letter by letter through the candidate wo
 * Comments in the code explain how to do it.
 * Finally, run it with *python find_cands.py* as you usually would. 
 
-![screenshot of it running](https://github.com/mbasilyan/wordle/blob/main/screenshot.png?raw=true)
+![screenshot of it running](https://github.com/mbasilyan/wordle/blob/main/screenshot2.PNG?raw=true)
