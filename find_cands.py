@@ -8,8 +8,9 @@ winning_words, viables = get_lists()
 ################ SET THE CURRENT STATE OF THE BOARD HERE ##############
 #######################################################################
 
-# List of green letters. Zero based position.
+# List of green letters. 
 # Replace each asterisk with a known green letter. 
+# For example: ['*', 'u', '*', '*', '*'] means you know u is the second letter in the word. 
 green_letters = ['*', '*', '*', '*', '*'] 
 
 # List of all yellow letters and where they have been seen. 
