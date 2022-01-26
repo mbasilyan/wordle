@@ -1,5 +1,5 @@
 # my wordle "solver"
-My goofy little script for solving [wordle](https://www.powerlanguage.co.uk/wordle/). It actually runs really slowly at first but once you've added some info (e.g. which letters are green, yellow, black) it goes much faster. The reason it's slow at first is the heuristic is expensive (see below).
+My goofy little script for playing [wordle](https://www.powerlanguage.co.uk/wordle/). It actually runs really slowly at first but once you've added some info (e.g. which letters are green, yellow, black) it goes much faster. The reason it's slow at first is the heuristic is expensive (see below).
 
 There are two files:
 * *wordledict.py* does nothing but load the list of winning words and possible words (these I just extracted from the Javascript on the site itself)
