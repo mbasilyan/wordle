@@ -6,3 +6,10 @@ There are two files:
 * *find_cands.py* uses the word lists to eliminate and score remaining viable words based on a heuristic. 
 
 The way the heuristic works is it goes letter by letter through the candidate word and goes: if this letter was yellow, how many words would be eliminated? What if it was green? What if it was black? Then it adds up the eliminated counts with a weight for each and adds up each letter, penalizing a word for having duplicate letters. 
+
+## To use:
+* Download both files and put them in the same directory.
+* Open the *find_cands.py* and find "SET THE CURRENT STATE OF THE BOARD HERE" section.
+* Set the current state of the board by providing the green letters, yellow letters and black letters you've seen. 
+* Comments in the code explain how to do it.
+* Finally, run it with *python find_cands.py* as you usually would. 
