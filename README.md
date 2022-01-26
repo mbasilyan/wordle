@@ -13,3 +13,5 @@ The way the heuristic works is it goes letter by letter through the candidate wo
 * Set the current state of the board by providing the green letters, yellow letters and black letters you've seen. 
 * Comments in the code explain how to do it.
 * Finally, run it with *python find_cands.py* as you usually would. 
+
+![screenshot of it running](https://github.com/mbasilyan/wordle/blob/main/screenshot.png?raw=true)
